@@ -29,6 +29,14 @@ Ninguna fase del pipeline se ha ejecutado todavía. Antes de correr la Fase 2
 (keywords) hay que cerrar las decisiones estratégicas pendientes con el cliente
 — ver `handoff/02-pauta-reunion-tres-puntos.md`.
 
+**Bloqueante (2026-07-28):** se intentó iniciar la Fase 1 (`brand-voice-capture`)
+y no fue posible acceder a `nicolasmunozps.com` desde la sesión de trabajo — la
+conexión al host es rechazada a nivel de política de red (403 en el túnel
+CONNECT del proxy de salida), no un problema del sitio. Esto afecta por igual
+al Workstream 1 (correcciones web, requiere WordPress) y al Workstream 2
+(pipeline SEO, requiere leer el sitio). Pausado en espera de que se resuelva el
+acceso de red o se comparta el contenido del sitio manualmente.
+
 ## Contenido de este proyecto
 
 - `handoff/01-cliente-y-objetivo.md` — ficha del cliente, pipeline SEO Autopilot y notas técnicas.
